@@ -1,5 +1,15 @@
 # Changelog
 
+## 2.11.1
+
+### Patch Changes
+
+- 8225cf4: Fix network switch confirmation handling for MetaMask
+
+  - Add proper popup load state waiting before interaction
+  - Bring popup to front to ensure it's active
+  - Support both 'page-container-footer-next' and 'confirmation-submit-button' selectors for broader MetaMask version compatibility
+
 ## 2.11.0
 
 ### Minor Changes
